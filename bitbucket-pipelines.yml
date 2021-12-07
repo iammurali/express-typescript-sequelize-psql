@@ -32,8 +32,8 @@ pipelines:
           - echo "Starting deployment to staging server"
           - pipe: atlassian/ssh-run:0.3.1
             variables:
-              SSH_USER: 'jazy'
-              SERVER: '159.65.156.184'
+              SSH_USER: 'user'
+              SERVER: 'ipaddress'
               MODE: 'script'
               COMMAND: 'deploy.sh'
 
