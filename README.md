@@ -1,7 +1,5 @@
-# expressjs-typescript-course
-Expressjs + TypeScript + Sequelize for Nusendra.com Youtube channel
-
-Playlist youtube https://www.youtube.com/playlist?list=PLnQvfeVegcJZHhImGvDpnp0P725Ykx4Qt
+# expressjs-typescript-Sequelize-Postgres
+Expressjs + TypeScript + Sequelize Postgres
 
 # How to
 1. `git clone https://github.com/nusendra/expressjs-typescript-course.git`
