@@ -10,23 +10,5 @@ Playlist youtube https://www.youtube.com/playlist?list=PLnQvfeVegcJZHhImGvDpnp0P
 4. Terminal 1 `yarn ts` to compile the TypeScript into JS File (watch mode).
 5. Terminal 2 `yarn dev` to run the app.
 
-quelize migration:generate --name yourname-here
- 
-   {
-     "orderAction": "REJECTED", // ACCEPTED // PROCESSING
-     "products": [
- 
-     {
-       orderAction: "REJECTED"
-     },
- 
-     {
-       orderAction: "REJECTED"
-     }
- 
-     ]
- 
-   }
-
 TO GENERATE MIGRATION:
 sequelize migration:generate --name yourname-here
