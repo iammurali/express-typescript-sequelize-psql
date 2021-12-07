@@ -2,7 +2,7 @@
   "name": "typescript-express",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Nusendra",
+  "author": "Murali Elumalai",
   "license": "MIT",
   "scripts": {
     "tsc": "rm -rf build/ && tsc",
