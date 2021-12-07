@@ -23,6 +23,7 @@ class AuthService {
     let { mobileNumber } = this.body;
     return mobileNumber;
   };
+
   verifyOtp = async () => {
     const myOtp = 1234;
     let { mobileNumber, otp } = this.body;
@@ -42,12 +43,8 @@ class AuthService {
     } else {
       return false;
     }
-    // } catch (err) {
-    //   return err;
-
-    //   // console.log(err);
-    // }
   };
+
   updateProfile = async () => {
     let { name, emailId, devicesId, gender, onBoarded } = this.body;
     const isEmailAlreadyTaken = await db.User.findOne({
